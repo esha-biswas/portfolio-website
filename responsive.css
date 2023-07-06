@@ -1,0 +1,272 @@
+.main-container section.one .main-container-inner .inner-container .project-overview .main-info .info-wrapper div a span.about:hover {
+    transition: width .3s ease-in-out;
+    /* stop-color: var(--grad-2); */
+}
+
+header div ul li.email a svg:hover {
+    height: 34px;
+    width: 34px;
+}
+
+header div ul li.github a svg:hover {
+    height: 34px;
+    width: 34px;
+}
+
+header div ul li.linkedin a svg:hover {
+    height: 34px;
+    width: 34px;
+}
+
+header div ul #h:hover {
+    color: rgb(92, 102, 96)
+}
+
+header div ul #a:hover {
+    color: rgb(92, 102, 96)
+}
+
+header div ul #e:hover {
+    color: rgb(92, 102, 96)
+}
+
+
+header div ul #c:hover {
+    color: rgb(92, 102, 96)
+}
+
+
+.scroll {
+    background-color: #181718;
+}
+
+.scrolled{
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message {
+        position: relative;
+        flex-basis: 106.4752%;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message span.span2 {
+        justify-content: flex-end;
+        margin-left: 350px;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message .aboutme-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 350px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    section.two {
+        height: 186vh;
+    }
+
+    section.three {
+        height: 58vh;
+    }
+
+
+    .main-container section.three .main-container-inner .inner-container {
+        /* -webkit-user-select: none; */
+        user-select: none;
+        z-index: 2;
+        background: #1d1d20;
+        border-radius: 5px;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        padding: 50px 0px;
+        overflow: hidden;
+
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message span.span2 {
+        justify-content: flex-end;
+        margin-left: 350px;
+
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message .experience-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 350px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message {
+        position: relative;
+        flex-basis: 101.4752%;
+    }
+
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message .contactform {
+        font-family: 'PT Sans', sans-serif;
+
+        margin: 0 40px;
+        width: 452px;
+        justify-content: space-around;
+    }
+
+    .main-container section.four .main-container-inner .inner-container {
+        /* -webkit-user-select: none; */
+        user-select: none;
+        z-index: 2;
+        background: #1d1d20;
+        border-radius: 5px;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        padding: 50px 0px;
+        overflow: hidden;
+
+    }
+    .main-container section.one .main-container-inner header .logo {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+
+    .main-container section.one .main-container-inner .inner-container .project-overview {
+        /* -webkit-backface-visibility: hidden; */
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
+        box-sizing: border-box;
+        min-height: calc(100% - 53px);
+        height: calc(100% - 53px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        transform: translateZ(0px);
+
+    }
+
+    .main-container section.one .main-container-inner .inner-container .project-overview .main-message {
+        position: relative;
+        flex-basis: 35.4752%;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        width: 87%;
+        /* float: right; */
+        height: 63px;
+        background-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    [data-name="corner-top-left"] {
+
+        top: 0px;
+        left: 0px;
+        transition: all ease-in-out;
+        position: absolute;
+
+    }
+
+    [data-name="corner-bottom-right"] {
+        bottom: 0px;
+        right: 0px;
+        transition: all ease-in-out;
+        position: absolute;
+
+    }
+
+    section.one .project-overview {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message span.span2 {
+        justify-content: flex-end;
+        margin-left: 0px;
+        margin-bottom: 41px;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message span.span1 {
+        justify-content: flex-start;
+        margin-bottom: 41px;
+
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message .aboutme-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message span.span2 {
+        justify-content: flex-end;
+        margin-left: 0px;
+        margin-bottom: 41px;
+
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message span.span1 {
+        justify-content: flex-start;
+        margin-bottom: 41px;
+
+    }
+
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message .experience-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message .contactform {
+        font-family: 'PT Sans', sans-serif;
+
+        margin: 0 40px;
+        width: 452px;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
+
+.highlighted {
+    animation: textAnimate 5s;
+
+}
+
+
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffset: -20%;
+    }
+}
