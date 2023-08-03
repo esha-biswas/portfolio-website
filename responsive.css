@@ -3,35 +3,46 @@
     /* stop-color: var(--grad-2); */
 }
 
-header div ul li.email a svg:hover {
+.header div ul li.email a svg:hover {
     height: 34px;
     width: 34px;
 }
 
-header div ul li.github a svg:hover {
+.header ul li #email:hover {
+    fill: white;
+}
+
+.header div ul li.github a svg:hover {
     height: 34px;
     width: 34px;
 }
 
-header div ul li.linkedin a svg:hover {
+.header ul li #github:hover {
+    fill: rgb(223, 219, 219);
+}
+
+.header div ul li.linkedin a svg:hover {
     height: 34px;
     width: 34px;
 }
 
-header div ul #h:hover {
+.header ul li #linkedin:hover {
+    fill: rgb(34, 34, 167);
+}
+
+.header div ul #h:hover {
     color: rgb(92, 102, 96)
 }
 
-header div ul #a:hover {
+.header div ul #a:hover {
     color: rgb(92, 102, 96)
 }
 
-header div ul #e:hover {
+.header div ul #e:hover {
     color: rgb(92, 102, 96)
 }
 
-
-header div ul #c:hover {
+.header div ul #c:hover {
     color: rgb(92, 102, 96)
 }
 
@@ -40,10 +51,32 @@ header div ul #c:hover {
     background-color: #181718;
 }
 
-.scrolled{
-    margin-top: 0px;
+.scrolled {
+    /* color: #ccc; */
+    /* visibility: hidden; */
+    display: none;
+
 }
 
+
+
+@media screen and (max-width: 1100px) {
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message span.span2 {
+        margin-left: 535px;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message span.span2 {
+        margin-left: 450px;
+    }
+
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message .aboutme-message h2.heading {
+        margin-left: 450px;
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message .experience-message h2.heading {
+        margin-left: 450px;
+    }
+}
 
 @media screen and (max-width: 900px) {
 
@@ -61,17 +94,17 @@ header div ul #c:hover {
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 350px;
-        font-family: Montserrat-Regular;
+        font-family: "Agdasima", "sans-serif";
         font-size: 30px;
         font-weight: 100;
     }
 
     section.two {
-        height: 186vh;
+        height: 260vh;
     }
 
     section.three {
-        height: 58vh;
+        height: 76vh;
     }
 
 
@@ -83,10 +116,11 @@ header div ul #c:hover {
         border-radius: 5px;
         flex-wrap: wrap;
         flex-basis: 100%;
-        padding: 50px 0px;
+        /* padding: 50px 0px; */
         overflow: hidden;
 
     }
+
 
     .main-container section.three .main-container-inner .inner-container .project-overview .exper-message span.span2 {
         justify-content: flex-end;
@@ -103,7 +137,21 @@ header div ul #c:hover {
         font-weight: 100;
     }
 
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 350px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
     .main-container section.three .main-container-inner .inner-container .project-overview .exper-message {
+        position: relative;
+        flex-basis: 101.4752%;
+    }
+
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message {
         position: relative;
         flex-basis: 101.4752%;
     }
@@ -112,7 +160,7 @@ header div ul #c:hover {
         font-family: 'PT Sans', sans-serif;
 
         margin: 0 40px;
-        width: 452px;
+        /* width: 452px; */
         justify-content: space-around;
     }
 
@@ -124,14 +172,40 @@ header div ul #c:hover {
         border-radius: 5px;
         flex-wrap: wrap;
         flex-basis: 100%;
-        padding: 50px 0px;
+        /* padding: 50px 0px; */
         overflow: hidden;
 
     }
+
     .main-container section.one .main-container-inner header .logo {
         margin-left: 0px;
         margin-top: 0px;
     }
+
+    .main-container section.one .main-container-inner .inner-container .project-overview .main-message #Hi svg text {
+        font-size: 360px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    @media screen and (max-height: 1280px) {
+
+        section.two {
+            height: 165vh;
+        }
+    }
+
+    @media screen and (max-height: 1080px) {
+        section.two {
+            height: 190vh;
+        }
+    }
+
+    section.three {
+        height: 50vh;
+    }
+
 }
 
 
@@ -147,7 +221,7 @@ header div ul #c:hover {
         box-sizing: border-box;
         min-height: calc(100% - 53px);
         height: calc(100% - 53px);
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         display: flex;
         transform: translateZ(0px);
@@ -166,7 +240,7 @@ header div ul #c:hover {
         width: 87%;
         /* float: right; */
         height: 63px;
-        background-color: transparent;
+        /* background-color: transparent; */
         transition: background-color 0.3s ease-in-out;
     }
 
@@ -208,7 +282,7 @@ header div ul #c:hover {
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 0px;
-        font-family: Montserrat-Regular;
+        font-family: "Agdasima", "sans-serif";
         font-size: 30px;
         font-weight: 100;
     }
@@ -237,12 +311,21 @@ header div ul #c:hover {
         font-weight: 100;
     }
 
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message h2.heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        font-family: Montserrat-Regular;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
 
     .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message .contactform {
         font-family: 'PT Sans', sans-serif;
 
         margin: 0 40px;
-        width: 452px;
+        /* width: 452px; */
         justify-content: space-around;
     }
 
@@ -250,12 +333,185 @@ header div ul #c:hover {
 
 
 
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+
+    top: 15px;
+    display: none;
+    /* margin-right: 40px; */
+
+}
+
+
+.line {
+    width: 33px;
+    background-color: rgb(202, 179, 179);
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .main-container section.one .main-container-inner header {
+        /* flex-direction: column; */
+        transition: all 0.3s ease-out;
+    }
+
+    .main-container section.one .main-container-inner header ul a {
+        margin: 15px 0px;
+    }
+
+    .main-container section.one .main-container-inner header .logo {
+        margin-left: 0px;
+        margin-top: 7px;
+
+    }
+
+    .main-container section.one .main-container-inner header ul {
+
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: start;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .headr {
+        height: 490px;
+    }
+
+    .v-class {
+
+        opacity: 0;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .margin {
+        margin-top: 35px;
+    }
+
+
+}
+
+.flex {
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width: 428px) {
+    .main-container section.two .main-container-inner .inner-container .project-overview .about-message #aboutme svg text {
+
+        font-size: 390px;
+    }
+
+    .main-container section.three .main-container-inner .inner-container .project-overview .exper-message #experience svg text {
+        font-size: 380px;
+
+    }
+
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message #contact svg text {
+        font-size: 390px;
+
+    }
+
+    section.two {
+        height: 245vh;
+    }
+
+    section.three {
+        height: 75vh;
+    }
+
+    .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message .contactform {
+        font-family: 'PT Sans', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    @media screen and (max-height: 883px) {
+
+        section.two {
+            height: 270vh;
+        }
+
+        section.three {
+            height: 76vh;
+        }
+    }
+}
+
+@media screen and (max-width: 384px) {
+    @media screen and (max-height: 855px) {
+        section.three {
+            height: 90vh;
+        }
+
+        section.two {
+            height: 290vh;
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    @media screen and (max-height: 812px) {
+        section.three {
+            height: 100vh;
+        }
+
+        section.two {
+            height: 315vh;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    @media screen and (max-height: 800px) {
+        section.three {
+            height: 100vh;
+        }
+        section.two {
+            height: 325vh;
+        }
+       
+    @media screen and (max-height: 760px) {
+
+section.two {
+            height: 330vh;
+        }
+        .main-container section.one .main-container-inner .inner-container{
+            height: 100vh;
+        }
+    }
+
+    }
+}
 
 
 .highlighted {
-    animation: textAnimate 5s;
+    animation: textAnimate 3s;
 
 }
+
+
 
 
 
