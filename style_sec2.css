@@ -1,5 +1,6 @@
 section.two{
     height: 320vh;
+   
 }
 
 
@@ -8,7 +9,7 @@ section.two{
     width: 100vw;
     max-width: 13380px;
     box-sizing: border-box;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: 0px;
     padding: 58px 20px 20px;
     display: flex;
@@ -79,6 +80,20 @@ section.two{
     display: flex ;
     flex-direction: column;
     position: relative;
+}
+
+.spango2{
+    transform: translate(-650px, 0px);
+    right:-650px;
+    transition: transform 0.3s ease-in;
+}
+
+.spango1{
+    transform: translate(570px, 0px);
+    transition: transform 0.3s ease-in;
+
+    left:-570px
+
 }
 
 .main-container section.two .main-container-inner .inner-container .project-overview .about-message span.span1{
