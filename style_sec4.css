@@ -9,7 +9,7 @@ section.four{
     box-sizing: border-box;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 93.5px;
+    padding: 93.5px 20px;
     display: flex;
     position: relative;
 
@@ -36,7 +36,7 @@ section.four{
     min-height: calc(100% - 102px);
     height: calc(100% - 102px);
     /* flex-direction: column; */
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     transform: translateZ(0px);
@@ -54,6 +54,10 @@ section.four{
     transform: scaleX(1);
 }
 
+.main-container section.four .main-container-inner .inner-container .project-overview .con-message #contact svg {
+    width: 75%;
+    fill: #fff0;
+}
 
 .main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message .contactform {
     font-family: 'PT Sans', sans-serif;
@@ -62,10 +66,7 @@ section.four{
     justify-content: space-around;
 }
 
-.main-container section.four .main-container-inner .inner-container .project-overview .con-message #contact svg {
-    width: 75%;
-    fill: rgba(138, 105, 105, 0);
-}
+
 
 .main-container section.four .main-container-inner .inner-container .project-overview .con-message #contact svg text {
     stroke: #fbfcfc;
@@ -170,7 +171,7 @@ section.four{
     padding-left: 32px;
 }
 
-.main-container section.four .main-container-inner .inner-container .project-overview .con-message .experience-message span p {
+.main-container section.four .main-container-inner .inner-container .project-overview .con-message .contact-message span p {
 
     margin-bottom: 0px;
     margin-top: 0px;
