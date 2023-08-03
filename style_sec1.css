@@ -17,6 +17,8 @@ section {
     flex-direction: column;
     height: 100vh;
     /* width: 100vw; */
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
@@ -76,11 +78,11 @@ body {
     flex-basis: 100%;
     /* padding: 15px; */
     overflow: hidden;
-    height: 94vh;
+    height: 84vh;
 
 }
 
-.main-container section.one .main-container-inner header {
+.main-container  section.one .main-container-inner header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,25 +91,25 @@ body {
     left: 0px;
     z-index: 999;
     width: 99%;
-    /* float: right; */
-    height: 70px;
-    /* background-color: transparent; */
+    
+    /* height: 70px; */
+    
     transition: background-color 0.3s ease-in-out;
 
 }
 
-.main-container section.one .main-container-inner header .logo {
-    margin-left: 84px;
-    margin-top: 45px;
+.main-container   section.one .main-container-inner header .logo {
+    margin-left: 50px;
+    margin-top: 0px;
 }
 
 
-.main-container section.one .main-container-inner header ul {
+.main-container  section.one .main-container-inner header ul {
     list-style: none;
     display: flex;
-    margin-top: 36px;
+    margin-top: 20px;
     margin-right:35px ;
-
+position: relative;
 }
 
 li {
@@ -116,17 +118,19 @@ li {
     margin: 0 23px;
 }
 
-.main-container section.one .main-container-inner header ul a {
+.main-container section.one .main-container-inner  header ul a {
+    /* color: #1d1d20; */
     color: #ccc;
     /* margin-left: 30px; */
     line-height: 1.5;
     display: flex;
+    
     cursor: pointer;
     text-decoration: none;
 }
 
 
-.main-container .main-container-inner header ul a svg {
+.main-container   section.one .main-container-inner header ul a svg {
     width: 25px;
     height: 52px;
     margin-top: -15px;
@@ -134,17 +138,17 @@ li {
     transition: transform 0.2s ease-in-out 0s;
 }
 
-.main-container .main-container-inner header ul .email svg {
+.main-container  section.one .main-container-inner header ul .email svg {
     fill: rgb(119, 119, 119);
     transition: all 0.1s ease-in-out 0s;
 }
 
-.main-container .main-container-inner header ul .github svg {
+.main-container   section.one .main-container-inner header ul .github svg {
     fill: rgb(119, 119, 119);
     transition: all 0.1s ease-in-out 0s;
 }
 
-.main-container .main-container-inner header ul .linkedin svg {
+.main-container   section.one .main-container-inner header ul .linkedin svg {
     fill: rgb(119, 119, 119);
     transition: all 0.1s ease-in-out 0s;
 }
