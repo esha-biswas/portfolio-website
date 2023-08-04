@@ -84,12 +84,12 @@
 .spango2{
     transform: translate(-650px, 0px);
     right:-650px;
-    transition: transform 0.3s ease-in;
+    transition: transform 1s ease-in;
 }
 
 .spango1{
     transform: translate(570px, 0px);
-    transition: transform 0.3s ease-in;
+    transition: transform 1s ease-in;
 
     left:-570px
 
