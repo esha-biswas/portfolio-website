@@ -424,8 +424,11 @@
         height: 100vh;
     }
 }
+@media screen and (max-width: 450px) {
 
-
+.main-container section.one .main-container-inner{height: 100vh;}
+        .main-container section.one .main-container-inner .inner-container{height: 90vh;}
+}
 
 @media screen and (max-width: 428px) {
     .main-container section.two .main-container-inner .inner-container .project-overview .about-message #aboutme svg text {
@@ -481,6 +484,8 @@
         section.two {
             height: 290vh;
         }
+        .main-container section.one .main-container-inner{height: 120vh;}
+        .main-container section.one .main-container-inner .inner-container{height: 100vh;}
     }
 }
 
