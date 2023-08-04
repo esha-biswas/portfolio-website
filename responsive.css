@@ -76,6 +76,14 @@
     .main-container section.three .main-container-inner .inner-container .project-overview .exper-message .experience-message h2.heading {
         margin-left: 450px;
     }
+    @media screen and (max-height: 1400px) {
+        section.three{
+            height: 80vh;
+        }
+        section.two {
+            height: 180vh;
+        }
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -132,7 +140,7 @@
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 350px;
-        font-family: Montserrat-Regular;
+        font-family: "Agdasima", "sans-serif";
         font-size: 30px;
         font-weight: 100;
     }
@@ -306,7 +314,7 @@
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 0px;
-        font-family: Montserrat-Regular;
+        font-family: "Agdasima", "sans-serif";
         font-size: 30px;
         font-weight: 100;
     }
@@ -407,6 +415,15 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 550px) {
+    section.two {
+        height: 290vh;
+    }
+
+    section.three {
+        height: 100vh;
+    }
+}
 
 
 
@@ -476,11 +493,25 @@
         section.three {
             height: 100vh;
         }
+        .main-container section.one .main-container-inner{height: 114vh;}
+        .main-container section.one .main-container-inner .inner-container{height: 108vh;}
 
         section.two {
             height: 315vh;
         }
+        section.one {
+            height: 120vh;
+        }
+
     }
+    @media screen and (max-height: 670px) {
+        .main-container section.one .main-container-inner{height: 114vh;}
+        .main-container section.one .main-container-inner .inner-container{height: 108vh;}
+        section.two {
+            height: 360vh;
+        }
+    }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -504,6 +535,8 @@ section.two {
 
     }
 }
+
+
 
 
 .highlighted {
